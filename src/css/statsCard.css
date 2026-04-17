@@ -1,0 +1,14 @@
+.stats-card-component {
+    display: flex;
+    flex-direction: row;
+    height: 445px;
+    max-width: 1110px;
+}
+
+@media(max-width: 800px) {
+    .stats-card-component {
+        flex-direction: column-reverse;
+        height: 780px;
+        width: 100%;
+    }
+}
